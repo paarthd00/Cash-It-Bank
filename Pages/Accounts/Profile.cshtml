@@ -1,0 +1,126 @@
+@page
+@model ProfileModel
+
+
+<h2>Account Profile</h2>
+<div class="row gx-3 gy-4">
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        First Name
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.ClientFirstName
+                        </p>
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Last Name
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.ClientLastName
+                        </p>
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Account Number
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.AccountNum
+                        </p>
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Client ID
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.ClientID
+                        </p>
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Client Email
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.ClientEmail
+                        </p>
+                </div>
+
+        </div>
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Account Type
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.AccountType
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-4">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p>
+                                <Strong class="text-white">
+                                        Account Balance
+                                </Strong>
+                        </p>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="bg-dark px-3 py-3 rounded">
+                        <p class="text-white">
+                                @Model.ClientAccountVM.Balance
+                        </p>
+                </div>
+        </div>
+
+
+</div>

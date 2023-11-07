@@ -1,0 +1,80 @@
+@page
+@model DetailModel
+
+<h1>Details</h1>
+
+<table class="table">
+        <tbody>
+
+                <tr>
+                        <td>
+                                <strong> ClientID</strong>
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.ClientID)
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <strong>Account Number</strong>
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.AccountNum)
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <strong>Last Name</strong>
+
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.ClientLastName)
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <strong>
+                                        First Name
+                                </strong>
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.ClientFirstName)
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <strong>
+                                        Account Type
+                                </strong>
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.AccountType)
+                        </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <strong>
+                                        Email
+                                </strong>
+                        </td>
+
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.ClientEmail)
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <strong>
+                                        Balance
+                                </strong>
+                        </td>
+
+                        <td>
+                                @Html.DisplayFor(modelItem => @Model.ClientAccountVM.Balance)
+                        </td>
+                </tr>
+        </tbody>
+</table>
+
+<a asp-route-accountNum="@Model.ClientAccountVM.AccountNum" asp-page="/Accounts/Edit" class="btn btn-secondary">Edit</a>
