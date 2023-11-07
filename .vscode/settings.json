@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin/Release/net7.0/publish",
+  "appService.defaultWebAppToDeploy": "/subscriptions/ac6a47db-a7a6-4c55-a82d-6b8f19e781c4/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/banksystem"
+}

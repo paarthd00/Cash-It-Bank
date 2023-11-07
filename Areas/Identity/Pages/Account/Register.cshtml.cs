@@ -88,7 +88,7 @@ namespace WebApplication1.Areas.Identity.Pages.Account
 
             [Required]
             [Display(Name = "Account Balance")]
-            public int balance { get; set; }
+            public float balance { get; set; }
 
             [Required]
             [EmailAddress]

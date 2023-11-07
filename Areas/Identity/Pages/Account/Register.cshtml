@@ -17,8 +17,8 @@
             </select>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.balance" type="number" min="0" class="form-control" autocomplete="balance"
-                    aria-required="true" placeholder="Balance" />
+                <input asp-for="Input.balance" type="number" min="0" step="0.01" class="form-control"
+                    autocomplete="balance" aria-required="true" placeholder="Balance" />
                 <label asp-for="Input.balance"></label>
                 <span asp-validation-for="Input.balance" class="text-danger"></span>
             </div>
