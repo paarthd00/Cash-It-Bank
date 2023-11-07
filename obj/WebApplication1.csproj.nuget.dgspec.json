@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/WebApplication1.csproj": {}
+    "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/WebApplication1.csproj": {
+    "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/WebApplication1.csproj",
+        "projectPath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/WebApplication1.csproj",
         "packagesPath": "/home/paarthdhammi/.nuget/packages/",
-        "outputPath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/obj/",
+        "outputPath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/paarthdhammi/.nuget/NuGet/NuGet.Config"

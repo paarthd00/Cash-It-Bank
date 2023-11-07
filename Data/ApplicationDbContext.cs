@@ -29,7 +29,7 @@ namespace WebApplication1.Data
             [Key]
             public int accountNum { get; set; }
             public string? accountType { get; set; }
-            public int? balance { get; set; }
+            public float? balance { get; set; }
             public virtual ICollection<ClientAccount> ClientsAccount { get; set; } = new List<ClientAccount>();
         }
         public class MyRegisteredUser

@@ -4,16 +4,20 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h2>Welcome!</h2>
+<div class="container">
 
-    <form method="post">
-        <select class="form-control col-lg-6 px-3 mb-4" asp-for="filterValue">
-            <option value="All">All</option>
-            <option value="Chequing">Chequing</option>
-            <option value="Savings">Savings</option>
-        </select>
-        <input class="btn btn-secondary" type="submit" value="Filter" />
-    </form>
+    <div class="text-center d-flex flex-column justify-content-center align-items-center">
+        <h2>Welcome @User.Identity?.Name !</h2>
+
+        <form style="max-width: 20rem; width:20rem" method="post">
+            <select class="form-control col-lg-6 px-3 mb-4" asp-for="filterValue">
+                <option value="All">All</option>
+                <option value="Chequing">Chequing</option>
+                <option value="Savings">Savings</option>
+            </select>
+            <input class="btn btn-secondary" type="submit" value="Filter" />
+        </form>
+
+    </div>
 
 </div>

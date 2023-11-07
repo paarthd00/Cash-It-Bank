@@ -16,7 +16,7 @@ namespace WebApplication1.Pages
                         get; set;
                 }
                 [BindProperty]
-                public int balance
+                public float balance
                 {
                         get; set;
                 }
@@ -51,7 +51,7 @@ namespace WebApplication1.Pages
                         ClientAccountVM = await clientAccountRepo.accountDetails(int.Parse(value));
                         firstName = ClientAccountVM.ClientFirstName;
                         lastName = ClientAccountVM.ClientLastName;
-                        balance = (int)ClientAccountVM.Balance;
+                        balance = (float)ClientAccountVM.Balance;
                 }
 
                 public async Task<IActionResult> OnPostAsync()

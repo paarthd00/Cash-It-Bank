@@ -25,7 +25,7 @@ namespace WebApplication1.ViewModels
         public string? ClientLastName { get; internal set; }
         public string? AccountType { get; internal set; }
         public string? ClientEmail { get; internal set; } = null;
-        public int? Balance { get; internal set; }
+        public float? Balance { get; internal set; }
     }
 }
 

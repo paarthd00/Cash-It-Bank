@@ -12,6 +12,8 @@ namespace WebApplication1.Pages
     {
         [BindProperty]
         public string filterValue { get; set; }
+
+        public string userName { get; set; }
         private readonly WebApplication1.Data.ApplicationDbContext _context;
 
         public IndexModel(WebApplication1.Data.ApplicationDbContext context)
@@ -23,6 +25,7 @@ namespace WebApplication1.Pages
 
         public async Task OnGetAsync()
         {
+            // userName = 
         }
 
         public async Task<IActionResult> OnPostAsync()

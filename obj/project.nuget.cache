@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o8IvDvrDOoKzi5bU3MkisYGRpc2IDrtlbiJaVM2u+8rj5aAHIwckpYzINdHPMsoHzaO140Lsyb8PFniIYdCAIQ==",
+  "dgSpecHash": "P9jGovmFFZwF2ujlLjsE75EXC/RPf2YTartJw4d6XPhoLms5aHlb7IbUUcGfuHAU5fj8EPgOwisnm58nmSBYjA==",
   "success": true,
-  "projectFilePath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Ass1/WebApplication1/WebApplication1.csproj",
+  "projectFilePath": "/home/paarthdhammi/BCIT/C-sharp/ass1/C--Assignment1/WebApplication1/WebApplication1.csproj",
   "expectedPackageFiles": [
     "/home/paarthdhammi/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/paarthdhammi/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

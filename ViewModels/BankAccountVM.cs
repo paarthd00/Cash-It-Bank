@@ -9,10 +9,10 @@
             set { _AccountType = value; }
         }
 
-        private decimal _Balance;
+        private float _Balance;
         internal string accountType;
 
-        public decimal Balance
+        public float Balance
         {
             get { return _Balance; }
             set { _Balance = value; }

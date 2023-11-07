@@ -79,7 +79,7 @@ namespace WebApplication1.Repositories
 
 
 
-        public async Task updateDetails(string firstName, string lastName, int balance, int accountNum)
+        public async Task updateDetails(string firstName, string lastName, float balance, int accountNum)
         {
             var client = await _context.ClientsAccount.Where(u => u.accountNum == accountNum).FirstOrDefaultAsync();
             if (client == null)

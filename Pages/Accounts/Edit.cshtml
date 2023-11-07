@@ -6,17 +6,17 @@
 <form method="post">
 
         <div class="row">
-        <div class="form-group col-lg-4 col-md-6 col">
+        <div class="form-group col-lg-4 col-md-6 col-12">
                 <label for="balance">Balance</label>
                 <input min="0" name="balance" placeholder="Balance" class="form-control px-2 py-2 mb-2" asp-for="balance"
-                        type="number"/>
+                        type="number" step="0.01"/>
         </div>
-        <div class="form-group col-lg-4 col-md-6 col">
+        <div class="form-group col-lg-4 col-md-6 col-12">
                 <label for="firstname">First Name</label>
                 <input name="firstname" placeholder="FirstName" class="form-control px-2 py-2 mb-2" asp-for="firstName"
                         type="text"/>
         </div>
-        <div class="form-group col-lg-4 col-md-6 col">
+        <div class="form-group col-lg-4 col-md-6 col-12">
                 <label for="lastname">LastName</label>
                 <input name="lastname" placeholder="LastName" class="form-control px-2 py-2 mb-2" asp-for="lastName"
                         type="text"/>
@@ -28,18 +28,18 @@
 
 <hr>
 <h2>Other data</h2>
-<div class="row gx-3 gy-4">
+<div class="row gx-0 gy-1">
         <div class="col-lg-4">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p>
                                 <Strong class="text-white">
-                                        Account Number
+                                        Account Number : 
                                 </Strong>
                         </p>       
                 </div>     
         </div> 
         <div class="col-lg-6">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p class="text-white">
                                 @Model.ClientAccountVM.AccountNum
                         </p> 
@@ -47,16 +47,16 @@
         </div>
 
         <div class="col-lg-4">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p>
                                 <Strong class="text-white">
-                                       Client ID
+                                       Client ID : 
                                 </Strong>
                         </p>       
                 </div>     
         </div>
         <div class="col-lg-6">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p class="text-white">
                                 @Model.ClientAccountVM.ClientID
                         </p>
@@ -64,16 +64,16 @@
         </div>
 
         <div class="col-lg-4">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p>
                                 <Strong class="text-white">
-                                        Client Email
+                                        Client Email : 
                                 </Strong>
                         </p>       
                 </div>   
         </div>
         <div class="col-lg-6">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p class="text-white">
                                 @Model.ClientAccountVM.ClientEmail
                         </p>
@@ -81,16 +81,16 @@
                 
         </div>     
         <div class="col-lg-4">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p>
                                 <Strong class="text-white">
-                                       Account Type
+                                       Account Type : 
                                 </Strong>
                         </p>       
                 </div>  
         </div>    
         <div class="col-lg-6">
-                <div class="bg-dark px-3 py-3 rounded">
+                <div class="bg-dark px-3 py-2 ">
                         <p class="text-white">
                                 @Model.ClientAccountVM.AccountType
                         </p>

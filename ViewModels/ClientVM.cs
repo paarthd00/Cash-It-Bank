@@ -22,6 +22,6 @@ namespace WebApplication1.ViewModels
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
-        public int? Balance { get; internal set; }
+        public float? Balance { get; internal set; }
     }
 }
